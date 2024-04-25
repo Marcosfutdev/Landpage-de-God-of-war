@@ -1,0 +1,186 @@
+section{
+    background-color: #16161a;
+    width: 100vw;
+    height: 100vh;
+}
+#primeiroh1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+#herois{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    gap:20px;
+}
+.herioi > img{
+    height: 400px;
+    margin-left: 20px;
+    margin-top: -120px;
+    opacity: 0.7;
+ }
+ .herioi{
+    background-color:  rgb(34, 34, 44);
+    margin-top: 180px;
+ }
+ .herioi:hover{
+    transition: .1s;
+    border: 2px solid blue;
+    opacity: 1;
+ }
+ .herioi > img:hover{
+    opacity: 1;
+    transition: 1s;
+ }
+ 
+ .right{
+     height: 40px;
+     margin-top: -190px;
+     margin-left: 1700px;
+     position: absolute;
+ }
+ .left{
+    height: 40px;
+    margin-top: 280px;
+    margin-left: 190px;
+    position: absolute;
+ }
+  .lutas{
+    background-color:#16161a;
+    background-image: url('./assets/img/background-2.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top center;
+    height: 800px
+ }
+ 
+ .lutas > .imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+ }
+ .imgs{
+    margin-top: 140px;
+    margin-left: -1500px;
+ }
+ .imgs > img{
+    height: 200px;
+    
+ }
+ .justifyh2 > h2{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height:50px;
+
+ }
+ .justifyh2 {
+    width:  400px;
+    height: 60px;
+    margin-left: 1460px;
+    margin-top: -350px;
+    margin-bottom: 50px;
+ }
+ .justifyp{
+    width: 420px;
+    margin-left: 1460px;
+    
+ }
+ .justifyp > p {
+    color:#fff;
+    font-size: 20px;
+ }
+ #armaslen{
+   height: 100vh;
+   width: 100vw;
+   background-color: #16161a;
+ }
+ #armaslen >  h1{
+    color:#fff;
+    margin-left: 50px;
+    font-size: 40px;
+ }
+ #armas{
+      display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-top: 80px;
+      gap:10px;
+ }
+ #armas > #primeira {
+    background-color:#27272e;
+    height: 370px;
+    width: 870px;
+    color:#fff;
+    margin-left: -10px;
+ }
+ #primeira > h2{
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 20px;
+ }
+ .p > p{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 600px;
+ }
+ #primeira > img{
+    height: 280px;
+    margin-left: 520px;
+    position: absolute;
+    margin-top: -230px;
+ }
+ #primeira  > .btn-saiba{
+    background-color: rgb(41, 108, 215);
+    height: 52px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#armas > #segunda {
+    background-color:#27272e;
+    height: 370px;
+    width: 870px;
+    color:#fff;
+ }
+ #segunda > h2{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 20px;
+   }
+   #segunda > img{
+    height: 280px;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: -230px;
+ }
+ #segunda > #mais{
+    background-color: rgb(41, 108, 215);
+    height: 52px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#segunda > #mais:hover{
+    background-color: transparent;
+    color:#fff;
+    border: 2px solid black;
+    transition: 1s;
+}
+#primeira > .btn-saiba:hover{
+    background-color: transparent;
+    color:#fff;
+    border: 2px solid black;
+    transition: 1s;
+}
